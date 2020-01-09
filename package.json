@@ -1,0 +1,25 @@
+{
+  "name": "scss-architecture-master",
+  "version": "1.0.0",
+  "description": "- 변수, 믹스 인 및 유틸리티 클래스을 넣으세요\r - 이 폴더에는 또한 프로젝트에 대한 모든 전역 변수를 보유하는 _variables.scs파일이 포함되어 있습니다.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "css-loader": "^3.4.1",
+    "style-loader": "^1.1.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0"
+  }
+}
